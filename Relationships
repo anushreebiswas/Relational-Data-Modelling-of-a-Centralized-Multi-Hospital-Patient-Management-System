@@ -1,0 +1,48 @@
+Relationships between tables:
+
+1. Patient ↔ Appointment
+1-to-Many: One patient can have one or multiple appointments.
+
+
+
+2. Doctor ↔ Appointment
+0-to-Many: One doctor can have zero or many appointments.
+
+
+
+3. Appointment ↔ Payments
+1-to-1 (Optional): An appointment may have one payment record.
+
+
+
+4. Patient ↔ Diagnosis
+(Associative Table: Diagnosis_Patient)
+
+Many-to-Many: Patients can have multiple diagnoses; a diagnosis can apply to multiple patients.
+
+
+
+5. Patient ↔ Medicine
+(Associative Table: Patient_Medicine)
+
+Many-to-Many: Each patient can be prescribed many medicines, and each medicine can be prescribed to many patients.
+
+
+6. Doctor ↔ Hospital
+(Associative Table: Hospital_Doctor)
+
+Many-to-Many: Doctors may work at multiple hospitals.
+
+
+
+7. Doctor ↔ Shift
+(Associative Table: Doctors_Shifts)
+
+Many-to-Many: Doctors can have multiple shifts; shifts can apply to multiple doctors.
+
+
+8. Hospital ↔ Department
+(Associative Table: Department_Hospital)
+
+Many-to-Many: Hospitals house multiple departments; departments exist across multiple hospitals.
+
