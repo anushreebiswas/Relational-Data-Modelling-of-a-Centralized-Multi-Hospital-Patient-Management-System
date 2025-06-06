@@ -1,0 +1,13 @@
+Technical Skills Demonstrated:
+
+Relational Data Modeling: Designed both conceptual and physical ER models to reflect real-world healthcare workflows.
+
+Database Normalization: Applied 3NF principles to eliminate redundancy and ensure data integrity.
+
+SQL & MySQL: Defined data types, primary and foreign keys, and implemented associative tables to model complex many-to-many relationships.
+
+Healthcare Domain Knowledge: Translated healthcare requirements into a robust and scalable data schema.
+
+Entity-Relationship (ER) Design Tools: Used diagramming tools to visualize entity relationships and improve data architecture understanding.
+
+Data Integrity & Referential Constraints: Ensured referential integrity through proper use of foreign keys and composite keys.
